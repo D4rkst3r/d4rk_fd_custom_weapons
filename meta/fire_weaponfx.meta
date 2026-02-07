@@ -3,22 +3,19 @@
     <FXInfos>
 
         <FXInfo>
-            <Name>WEAPON_EXTINGUISHER_WATER</Name>
-
+            <Name>WEAPON_FIREEXTINGUISHER_WATER</Name>
             <MuzzleFlash>
                 <EffectName>water_cannon_jet</EffectName>
                 <BoneName>gun_muzzle</BoneName>
                 <Scale value="1.2" />
             </MuzzleFlash>
-
             <FireSound>
                 <SoundName>FIRE_EXTINGUISHER_SPRAY</SoundName>
             </FireSound>
         </FXInfo>
 
         <FXInfo>
-            <Name>WEAPON_EXTINGUISHER_FOAM</Name>
-
+            <Name>WEAPON_FIREEXTINGUISHER_FOAM</Name>
             <MuzzleFlash>
                 <EffectName>exp_grd_bzgas_smoke</EffectName>
                 <BoneName>gun_muzzle</BoneName>
@@ -27,8 +24,7 @@
         </FXInfo>
 
         <FXInfo>
-            <Name>WEAPON_EXTINGUISHER_CO2</Name>
-
+            <Name>WEAPON_FIREEXTINGUISHER_CO2</Name>
             <MuzzleFlash>
                 <EffectName>veh_exhaust_white</EffectName>
                 <BoneName>gun_muzzle</BoneName>
@@ -37,8 +33,7 @@
         </FXInfo>
 
         <FXInfo>
-            <Name>WEAPON_EXTINGUISHER_POWDER</Name>
-
+            <Name>WEAPON_FIREEXTINGUISHER_POWDER</Name>
             <MuzzleFlash>
                 <EffectName>proj_flare_fuse</EffectName>
                 <BoneName>gun_muzzle</BoneName>
