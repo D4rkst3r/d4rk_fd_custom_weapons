@@ -5,36 +5,47 @@ author 'D4rkst3r'
 description 'Fire Department Custom Weapons'
 version '1.0.0'
 
--- Models & Textures
-files {
-    'stream/w_am_fire_exting.ytd',
-    'stream/w_am_fire_exting_water.ydr',
-    'stream/w_am_fire_exting_foam.ydr',
-    'stream/w_am_fire_exting_co2.ydr',
-    'stream/w_am_fire_exting_powder.ydr',
+this_is_a_map 'yes'
 
-    -- Meta-Files
-    'meta/*.meta'
+-- ============================================================================
+-- META FILES ONLY (Models werden automatisch aus stream/ geladen!)
+-- ============================================================================
+
+files {
+    'meta/weapons.meta',
+    'meta/weaponanimations.meta',
+    'meta/weaponarchetypes.meta',
+    'meta/weaponcomponents.meta',
+    'meta/pedpersonality.meta',
+    'meta/weaponfx.meta'
 }
 
--- Data Files registrieren
--- Weapon Info (Hauptdaten)
+-- ============================================================================
+-- DATA FILE REGISTRATIONS
+-- ============================================================================
+
+-- Weapon Info
 data_file 'WEAPONINFO_FILE' 'meta/weapons.meta'
 
 -- Weapon Animations
 data_file 'WEAPON_ANIMATIONS_FILE' 'meta/weaponanimations.meta'
 
--- Weapon Archetypes (Texture Links)
+-- Weapon Archetypes + Components (BEIDE in einer Registrierung!)
 data_file 'WEAPON_METADATA_FILE' 'meta/weaponarchetypes.meta'
 
--- Weapon Components (Attachments)
-data_file 'WEAPON_METADATA_FILE' 'meta/weaponcomponents.meta'
+data_file 'WEAPONCOMPONENTSINFO_FILE' 'meta/weaponcomponents.meta'
 
--- Ped Personality (NPC Verhalten)
+-- Ped Personality
 data_file 'PED_PERSONALITY_FILE' 'meta/pedpersonality.meta'
-data_file 'WEAPONFX_FILE' 'meta/weaponfx.meta'
 
+-- Weapon FX
+data_file 'WEAPONFX_FILE_METADATA' 'meta/weaponfx.meta'
 
-client_script {
+-- ============================================================================
+-- CLIENT SCRIPTS
+-- ============================================================================
+
+client_scripts {
     'cl_weaponNames.lua',
-    'client.lua' }
+    'client.lua'
+}
