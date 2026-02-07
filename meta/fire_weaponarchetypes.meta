@@ -2,29 +2,38 @@
 
 <CWeaponModelInfo__InitDataList>
     <InitDatas>
+
         <Item>
             <modelName>w_am_fire_exting_water</modelName>
             <txdName>w_am_fire_exting_water</txdName>
+            <hash value="W_AM_FIRE_EXTING_WATER" />
             <ptfxAssetName>null</ptfxAssetName>
             <lodDist value="50" />
         </Item>
+
         <Item>
             <modelName>w_am_fire_exting_foam</modelName>
             <txdName>w_am_fire_exting_foam</txdName>
+            <hash value="W_AM_FIRE_EXTING_FOAM" />
             <ptfxAssetName>null</ptfxAssetName>
             <lodDist value="50" />
         </Item>
+
         <Item>
             <modelName>w_am_fire_exting_co2</modelName>
             <txdName>w_am_fire_exting_co2</txdName>
+            <hash value="W_AM_FIRE_EXTING_CO2" />
             <ptfxAssetName>null</ptfxAssetName>
             <lodDist value="50" />
         </Item>
+
         <Item>
             <modelName>w_am_fire_exting_powder</modelName>
             <txdName>w_am_fire_exting_powder</txdName>
+            <hash value="W_AM_FIRE_EXTING_POWDER" />
             <ptfxAssetName>null</ptfxAssetName>
             <lodDist value="50" />
         </Item>
+
     </InitDatas>
 </CWeaponModelInfo__InitDataList>
