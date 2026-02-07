@@ -7,6 +7,8 @@ version '1.0.1'
 
 files {
     'meta/*.meta',
+    'stream/*.ydr',
+    'stream/*.ytd',
 }
 
 -- Alle Meta-Dateien registrieren
