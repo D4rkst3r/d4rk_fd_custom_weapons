@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+    <Components>
+
+        <!-- Wasserlöscher Default Component -->
+        <Item type="CWeaponComponentInfo">
+            <Name>COMPONENT_EXTINGUISHER_WATER_CLIP</Name>
+            <Model>w_am_fire_exting_water</Model>
+            <LocName>WCT_INVALID</LocName>
+            <LocDesc>WCD_INVALID</LocDesc>
+            <AttachBone>0</AttachBone>
+            <Flags>Default</Flags>
+        </Item>
+
+        <!-- Schaumlöscher Default Component -->
+        <Item type="CWeaponComponentInfo">
+            <Name>COMPONENT_EXTINGUISHER_FOAM_CLIP</Name>
+            <Model>w_am_fire_exting_foam</Model>
+            <LocName>WCT_INVALID</LocName>
+            <LocDesc>WCD_INVALID</LocDesc>
+            <AttachBone>0</AttachBone>
+            <Flags>Default</Flags>
+        </Item>
+
+        <!-- CO2-Löscher Default Component -->
+        <Item type="CWeaponComponentInfo">
+            <Name>COMPONENT_EXTINGUISHER_CO2_CLIP</Name>
+            <Model>w_am_fire_exting_co2</Model>
+            <LocName>WCT_INVALID</LocName>
+            <LocDesc>WCD_INVALID</LocDesc>
+            <AttachBone>0</AttachBone>
+            <Flags>Default</Flags>
+        </Item>
+
+        <!-- Pulverlöscher Default Component -->
+        <Item type="CWeaponComponentInfo">
+            <Name>COMPONENT_EXTINGUISHER_POWDER_CLIP</Name>
+            <Model>w_am_fire_exting_powder</Model>
+            <LocName>WCT_INVALID</LocName>
+            <LocDesc>WCD_INVALID</LocDesc>
+            <AttachBone>0</AttachBone>
+            <Flags>Default</Flags>
+        </Item>
+
+    </Components>
+</CWeaponComponentInfoBlob>

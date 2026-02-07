@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WeaponFX>
+    <FXInfos>
+
+        <FXInfo>
+            <Name>WEAPON_EXTINGUISHER_WATER</Name>
+
+            <MuzzleFlash>
+                <EffectName>water_cannon_jet</EffectName>
+                <BoneName>gun_muzzle</BoneName>
+                <Scale value="1.2" />
+            </MuzzleFlash>
+
+            <FireSound>
+                <SoundName>FIRE_EXTINGUISHER_SPRAY</SoundName>
+            </FireSound>
+        </FXInfo>
+
+        <FXInfo>
+            <Name>WEAPON_EXTINGUISHER_FOAM</Name>
+
+            <MuzzleFlash>
+                <EffectName>exp_grd_bzgas_smoke</EffectName>
+                <BoneName>gun_muzzle</BoneName>
+                <Scale value="0.8" />
+            </MuzzleFlash>
+        </FXInfo>
+
+        <FXInfo>
+            <Name>WEAPON_EXTINGUISHER_CO2</Name>
+
+            <MuzzleFlash>
+                <EffectName>veh_exhaust_white</EffectName>
+                <BoneName>gun_muzzle</BoneName>
+                <Scale value="1.0" />
+            </MuzzleFlash>
+        </FXInfo>
+
+        <FXInfo>
+            <Name>WEAPON_EXTINGUISHER_POWDER</Name>
+
+            <MuzzleFlash>
+                <EffectName>proj_flare_fuse</EffectName>
+                <BoneName>gun_muzzle</BoneName>
+                <Scale value="0.9" />
+            </MuzzleFlash>
+        </FXInfo>
+
+    </FXInfos>
+</WeaponFX>
