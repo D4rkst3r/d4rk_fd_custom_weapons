@@ -5,45 +5,23 @@ author 'D4rkst3r'
 description 'Fire Department Custom Weapons'
 version '1.0.0'
 
-this_is_a_map 'yes'
-
--- ============================================================================
--- META FILES ONLY (Models werden automatisch aus stream/ geladen!)
--- ============================================================================
+-- KEIN this_is_a_map 'yes' hier!
 
 files {
     'meta/weapons.meta',
     'meta/weaponanimations.meta',
     'meta/weaponarchetypes.meta',
-    'meta/weaponcomponents.meta',
     'meta/pedpersonality.meta',
-    'meta/weaponfx.meta'
+    'meta/loadouts.meta',
 }
 
--- ============================================================================
--- DATA FILE REGISTRATIONS
--- ============================================================================
-
--- Weapon Info
+-- WICHTIG: Die Reihenfolge und die richtigen Keywords
 data_file 'WEAPONINFO_FILE' 'meta/weapons.meta'
-
--- Weapon Animations
 data_file 'WEAPON_ANIMATIONS_FILE' 'meta/weaponanimations.meta'
-
--- Weapon Archetypes + Components (BEIDE in einer Registrierung!)
+-- Archetypes müssen als METADATA_FILE registriert werden, damit das Modell geladen wird
 data_file 'WEAPON_METADATA_FILE' 'meta/weaponarchetypes.meta'
-
-data_file 'WEAPONCOMPONENTSINFO_FILE' 'meta/weaponcomponents.meta'
-
--- Ped Personality
 data_file 'PED_PERSONALITY_FILE' 'meta/pedpersonality.meta'
-
--- Weapon FX
-data_file 'WEAPONFX_FILE_METADATA' 'meta/weaponfx.meta'
-
--- ============================================================================
--- CLIENT SCRIPTS
--- ============================================================================
+data_file 'LOADOUTS_FILE' 'meta/loadouts.meta'
 
 client_scripts {
     'cl_weaponNames.lua',

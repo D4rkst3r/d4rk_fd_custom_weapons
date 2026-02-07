@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <CWeaponInfoBlob>
+    <SlotNavigateOrder>
+        <Item>
+            <WeaponSlots>
+                <Item>
+                    <OrderNumber value="410" />
+                    <Entry>SLOT_FIREEXTINGUISHER</Entry>
+                </Item>
+            </WeaponSlots>
+        </Item>
+    </SlotNavigateOrder>
     <Infos>
-
-        <!-- ========================================== -->
-        <!-- WASSERLÖSCHER -->
-        <!-- ========================================== -->
         <Item type="CWeaponInfo">
-            <Name>WEAPON_EXTINGUISHER_WATER</Name>              <!-- ✏️ ÄNDERN -->
+            <Name>WEAPON_FIREEXTINGUISHER_WATER</Name>              <!-- ✏️ ÄNDERN -->
             <Model>w_am_fire_exting_water</Model>               <!-- ✏️ ÄNDERN -->
             <Audio />
             <Slot>SLOT_FIREEXTINGUISHER</Slot>
@@ -165,9 +171,9 @@
             <FirstPersonReticuleStyleHash />
             <PickupHash />
             <MPPickupHash />
-            <HumanNameHash>WT_FIRE_WATER</HumanNameHash>        <!-- ✏️ ÄNDERN -->
+            <HumanNameHash>WT_FIRE</HumanNameHash>        <!-- ✏️ ÄNDERN -->
             <MovementModeConditionalIdle />
-            <StatName>EXTINGUISHER_WATER</StatName>             <!-- ✏️ ÄNDERN -->
+            <StatName>EXTINGUISHER</StatName>             <!-- ✏️ ÄNDERN -->
             <KnockdownCount value="-1" />
             <KillshotImpulseScale value="1.000000" />
             <NmShotTuningSet>Normal</NmShotTuningSet>
@@ -175,7 +181,8 @@
             <GunFeedBone />
             <TargetSequenceGroup />
             <WeaponFlags>CarriedInHand Automatic CanFreeAim AnimCrouchFire UsableOnFoot
-                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired DoesRevivableDamage
+                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired
+                DoesRevivableDamage
                 CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
             <TintSpecValues ref="TINT_DEFAULT" />
             <FiringPatternAliases ref="NULL" />
@@ -202,7 +209,7 @@
         <!-- SCHAUMLÖSCHER -->
         <!-- ========================================== -->
         <Item type="CWeaponInfo">
-            <Name>WEAPON_EXTINGUISHER_FOAM</Name>              <!-- ✏️ ÄNDERN -->
+            <Name>WEAPON_FIREEXTINGUISHER_FOAM</Name>              <!-- ✏️ ÄNDERN -->
             <Model>w_am_fire_exting_foam</Model>               <!-- ✏️ ÄNDERN -->
             <Audio />
             <Slot>SLOT_FIREEXTINGUISHER</Slot>
@@ -370,8 +377,8 @@
             <GunFeedBone />
             <TargetSequenceGroup />
             <WeaponFlags>CarriedInHand Automatic CanFreeAim AnimCrouchFire UsableOnFoot
-                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired DoesRevivableDamage
-                CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
+                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired
+                DoesRevivableDamage CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
             <TintSpecValues ref="TINT_DEFAULT" />
             <FiringPatternAliases ref="NULL" />
             <ReloadUpperBodyFixupExpressionData ref="default" />
@@ -397,7 +404,7 @@
         <!-- WEITERE LÖSCHER FOLGEN HIER -->
         <!-- ========================================== -->
         <Item type="CWeaponInfo">
-            <Name>WEAPON_EXTINGUISHER_CO2</Name>              <!-- ✏️ ÄNDERN -->
+            <Name>WEAPON_FIREEXTINGUISHER_CO2</Name>              <!-- ✏️ ÄNDERN -->
             <Model>w_am_fire_exting_co2</Model>               <!-- ✏️ ÄNDERN -->
             <Audio />
             <Slot>SLOT_FIREEXTINGUISHER</Slot>
@@ -565,8 +572,8 @@
             <GunFeedBone />
             <TargetSequenceGroup />
             <WeaponFlags>CarriedInHand Automatic CanFreeAim AnimCrouchFire UsableOnFoot
-                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired DoesRevivableDamage
-                CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
+                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired
+                DoesRevivableDamage CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
             <TintSpecValues ref="TINT_DEFAULT" />
             <FiringPatternAliases ref="NULL" />
             <ReloadUpperBodyFixupExpressionData ref="default" />
@@ -593,7 +600,7 @@
         <!-- ========================================== -->
 
         <Item type="CWeaponInfo">
-            <Name>WEAPON_EXTINGUISHER_POWDER</Name>              <!-- ✏️ ÄNDERN -->
+            <Name>WEAPON_FIREEXTINGUISHER_POWDER</Name>              <!-- ✏️ ÄNDERN -->
             <Model>w_am_fire_exting_powder</Model>               <!-- ✏️ ÄNDERN -->
             <Audio />
             <Slot>SLOT_FIREEXTINGUISHER</Slot>
@@ -761,8 +768,8 @@
             <GunFeedBone />
             <TargetSequenceGroup />
             <WeaponFlags>CarriedInHand Automatic CanFreeAim AnimCrouchFire UsableOnFoot
-                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired DoesRevivableDamage
-                CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
+                UsableClimbing AllowEarlyExitFromFireAnimAfterBulletFired
+                DoesRevivableDamage CanBeFiredLikeGun NonViolent SuppressGunshotEvent</WeaponFlags>
             <TintSpecValues ref="TINT_DEFAULT" />
             <FiringPatternAliases ref="NULL" />
             <ReloadUpperBodyFixupExpressionData ref="default" />
@@ -783,6 +790,6 @@
             <HudAccuracy value="10" />
             <HudRange value="35" />
         </Item>
-
     </Infos>
+    <Name>FIRE</Name>
 </CWeaponInfoBlob>

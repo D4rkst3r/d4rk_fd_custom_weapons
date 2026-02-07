@@ -7,10 +7,10 @@ Citizen.CreateThread(function()
 
     -- Check ob Models existieren
     local weapons = {
-        'WEAPON_EXTINGUISHER_WATER',
-        'WEAPON_EXTINGUISHER_FOAM',
-        'WEAPON_EXTINGUISHER_CO2',
-        'WEAPON_EXTINGUISHER_POWDER'
+        'WEAPON_FIREEXTINGUISHER_WATER',
+        'WEAPON_FIREEXTINGUISHER_FOAM',
+        'WEAPON_FIREEXTINGUISHER_CO2',
+        'WEAPON_FIREEXTINGUISHER_POWDER'
     }
 
     for _, weaponName in ipairs(weapons) do
@@ -31,10 +31,10 @@ RegisterCommand('fdweaponcheck', function()
     print("^3========== FD WEAPONS CHECK ==========^0")
 
     local weapons = {
-        { name = 'WEAPON_EXTINGUISHER_WATER',  model = 'w_am_fire_exting_water' },
-        { name = 'WEAPON_EXTINGUISHER_FOAM',   model = 'w_am_fire_exting_foam' },
-        { name = 'WEAPON_EXTINGUISHER_CO2',    model = 'w_am_fire_exting_co2' },
-        { name = 'WEAPON_EXTINGUISHER_POWDER', model = 'w_am_fire_exting_powder' },
+        { name = 'WEAPON_FIREEXTINGUISHER_WATER',  model = 'w_am_fire_exting_water' },
+        { name = 'WEAPON_FIREEXTINGUISHER_FOAM',   model = 'w_am_fire_exting_foam' },
+        { name = 'WEAPON_FIREEXTINGUISHER_CO2',    model = 'w_am_fire_exting_co2' },
+        { name = 'WEAPON_FIREEXTINGUISHER_POWDER', model = 'w_am_fire_exting_powder' },
     }
 
     for _, weapon in ipairs(weapons) do

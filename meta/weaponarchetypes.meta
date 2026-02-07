@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CWeaponInfoBlob>
-    <archetypes>
-
-        <!-- Wasserlöscher -->
-        <Item type="CWeaponArchetype">
-            <assetName>w_am_fire_exting_water</assetName>
-            <txdName>w_am_fire_exting</txdName>
-            <clipDictionaryName>WEAPON_EXTINGUISHER_WATER</clipDictionaryName>
-            <flags value="0" />
-            <specialAttribute value="0" />
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>w_am_fire_exting_water</modelName>
+            <txdName>w_am_fire_exting_water</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50" />
         </Item>
-
-        <!-- Schaumlöscher -->
-        <Item type="CWeaponArchetype">
-            <assetName>w_am_fire_exting_foam</assetName>
-            <txdName>w_am_fire_exting</txdName>
-            <clipDictionaryName>WEAPON_EXTINGUISHER_FOAM</clipDictionaryName>
-            <flags value="0" />
-            <specialAttribute value="0" />
+        <Item>
+            <modelName>w_am_fire_exting_foam</modelName>
+            <txdName>w_am_fire_exting_foam</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50" />
         </Item>
-
-        <!-- CO2-Löscher -->
-        <Item type="CWeaponArchetype">
-            <assetName>w_am_fire_exting_co2</assetName>
-            <txdName>w_am_fire_exting</txdName>
-            <clipDictionaryName>WEAPON_EXTINGUISHER_CO2</clipDictionaryName>
-            <flags value="0" />
-            <specialAttribute value="0" />
+        <Item>
+            <modelName>w_am_fire_exting_co2</modelName>
+            <txdName>w_am_fire_exting_co2</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50" />
         </Item>
-
-        <!-- Pulverlöscher -->
-        <Item type="CWeaponArchetype">
-            <assetName>w_am_fire_exting_powder</assetName>
-            <txdName>w_am_fire_exting</txdName>
-            <clipDictionaryName>WEAPON_EXTINGUISHER_POWDER</clipDictionaryName>
-            <flags value="0" />
-            <specialAttribute value="0" />
+        <Item>
+            <modelName>w_am_fire_exting_powder</modelName>
+            <txdName>w_am_fire_exting_powder</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50" />
         </Item>
-
-    </archetypes>
-</CWeaponInfoBlob>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>
