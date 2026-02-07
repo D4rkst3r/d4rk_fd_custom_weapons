@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <CWeaponInfoBlob>
+    <SlotNavigateOrder>
+        <Item>
+            <WeaponSlots>
+                <Item>
+                    <OrderNumber value="410" />
+                    <Entry>SLOT_FIREEXTINGUISHER</Entry>
+                </Item>
+            </WeaponSlots>
+        </Item>
+    </SlotNavigateOrder>
+
     <Infos>
-        <SlotNavigateOrder>
-            <Item>
-                <WeaponSlots>
-                    <Item>
-                        <OrderNumber value="410" />
-                        <Entry>SLOT_FIREEXTINGUISHER</Entry>
-                    </Item>
-                </WeaponSlots>
-            </Item>
-        </SlotNavigateOrder>
+        <Item>
         <Infos>
             <Item type="CWeaponInfo">
                 <Name>WEAPON_FIREEXTINGUISHER_WATER</Name>              <!-- ✏️ ÄNDERN -->
@@ -790,8 +792,9 @@
                 <HudCapacity value="100" />
                 <HudAccuracy value="10" />
                 <HudRange value="35" />
-            </Item>
-        </Infos>
-        <Name>FIRE</Name>
-    </Infos>
+				</Item>
+			</Infos>
+		</Item>
+	</Infos>
+	<Name>FIRE</Name>
 </CWeaponInfoBlob>
