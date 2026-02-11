@@ -15,7 +15,7 @@ files {
 data_file 'WEAPONINFO_FILE' 'meta/weapons.meta'
 data_file 'WEAPON_ANIMATIONS_FILE' 'meta/weaponanimations.meta'
 data_file 'WEAPON_METADATA_FILE' 'meta/weaponarchetypes.meta'
-data_file 'WEAPONFX_FILE' 'meta/weaponfx.meta'
+data_file 'PTFXASSETINFO_FILE' 'meta/ptfxassetinfo.meta'
 data_file 'LOADOUTS_FILE' 'meta/loadouts.meta'
 data_file 'TEXTFILE_METAFILE' 'meta/dlctext.meta'
 data_file 'PED_PERSONALITY_FILE' 'meta/pedpersonality.meta'

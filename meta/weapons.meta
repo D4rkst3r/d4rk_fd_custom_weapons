@@ -8,28 +8,16 @@
                     <OrderNumber value="410" />
                     <Entry>SLOT_FIREEXTINGUISHER_WATER</Entry>
                 </Item>
-            </WeaponSlots>
-        </Item>
-        <Item>
-            <WeaponSlots>
                 <Item>
-                    <OrderNumber value="410" />
+                    <OrderNumber value="411" />
                     <Entry>SLOT_FIREEXTINGUISHER_FOAM</Entry>
                 </Item>
-            </WeaponSlots>
-        </Item>
-        <Item>
-            <WeaponSlots>
                 <Item>
-                    <OrderNumber value="410" />
+                    <OrderNumber value="412" />
                     <Entry>SLOT_FIREEXTINGUISHER_CO2</Entry>
                 </Item>
-            </WeaponSlots>
-        </Item>
-        <Item>
-            <WeaponSlots>
                 <Item>
-                    <OrderNumber value="410" />
+                    <OrderNumber value="413" />
                     <Entry>SLOT_FIREEXTINGUISHER_POWDER</Entry>
                 </Item>
             </WeaponSlots>
@@ -117,7 +105,7 @@
                     <FirstPersonBulletBendingZoomedRadius value="0.375000" />
                     <Fx>
                         <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
-                        <FlashFx>weap_extinguisher</FlashFx>
+                        <FlashFx>weap_fireextinguisher_water</FlashFx>
                         <FlashFxAlt />
                         <MuzzleSmokeFx />
                         <MuzzleSmokeFxMinLevel value="0.000000" />
@@ -312,7 +300,7 @@
                     <FirstPersonBulletBendingZoomedRadius value="0.375000" />
                     <Fx>
                         <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
-                        <FlashFx>weap_extinguisher</FlashFx>
+                        <FlashFx>weap_fireextinguisher_foam</FlashFx>
                         <FlashFxAlt />
                         <MuzzleSmokeFx />
                         <MuzzleSmokeFxMinLevel value="0.000000" />
@@ -507,7 +495,7 @@
                     <FirstPersonBulletBendingZoomedRadius value="0.375000" />
                     <Fx>
                         <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
-                        <FlashFx>weap_extinguisher</FlashFx>
+                        <FlashFx>weap_fireextinguisher_co2</FlashFx>
                         <FlashFxAlt />
                         <MuzzleSmokeFx />
                         <MuzzleSmokeFxMinLevel value="0.000000" />
@@ -703,7 +691,7 @@
                     <FirstPersonBulletBendingZoomedRadius value="0.375000" />
                     <Fx>
                         <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
-                        <FlashFx>weap_extinguisher</FlashFx>
+                        <FlashFx>weap_fireextinguisher_powder</FlashFx>
                         <FlashFxAlt />
                         <MuzzleSmokeFx />
                         <MuzzleSmokeFxMinLevel value="0.000000" />

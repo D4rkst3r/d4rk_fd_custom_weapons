@@ -6,28 +6,28 @@
         <Item>
             <modelName>w_am_fire_exting_water</modelName>
             <txdName>w_am_fire_exting_water</txdName>
-            <ptfxAssetName>null</ptfxAssetName>
+            <ptfxAssetName>weap_fireextinguisher_water</ptfxAssetName>
             <lodDist value="50" />
         </Item>
 
         <Item>
             <modelName>w_am_fire_exting_foam</modelName>
             <txdName>w_am_fire_exting_foam</txdName>
-            <ptfxAssetName>null</ptfxAssetName>
+            <ptfxAssetName>weap_fireextinguisher_foam</ptfxAssetName>
             <lodDist value="50" />
         </Item>
 
         <Item>
             <modelName>w_am_fire_exting_co2</modelName>
             <txdName>w_am_fire_exting_co2</txdName>
-            <ptfxAssetName>null</ptfxAssetName>
+            <ptfxAssetName>weap_fireextinguisher_co2</ptfxAssetName>
             <lodDist value="50" />
         </Item>
 
         <Item>
             <modelName>w_am_fire_exting_powder</modelName>
             <txdName>w_am_fire_exting_powder</txdName>
-            <ptfxAssetName>null</ptfxAssetName>
+            <ptfxAssetName>weap_fireextinguisher_powder</ptfxAssetName>
             <lodDist value="50" />
         </Item>
 

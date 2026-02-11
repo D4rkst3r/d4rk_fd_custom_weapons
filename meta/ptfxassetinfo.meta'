@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPtFxAssetInfoMgr>
+    <ptfxAssetDependencyInfos>
+        <!-- WASSERLÖSCHER -->
+        <Item type="CPtFxAssetDependencyInfo">
+            <parentName>weap_fireextinguisher_water</parentName>
+            <childName>w_am_fire_exting_water</childName>
+        </Item>
+
+        <!-- SCHAUMLÖSCHER -->
+        <Item type="CPtFxAssetDependencyInfo">
+            <parentName>weap_fireextinguisher_foam</parentName>
+            <childName>w_am_fire_exting_foam</childName>
+        </Item>
+
+        <!-- CO2 LÖSCHER -->
+        <Item type="CPtFxAssetDependencyInfo">
+            <parentName>weap_fireextinguisher_co2</parentName>
+            <childName>w_am_fire_exting_co2</childName>
+        </Item>
+
+        <!-- PULVERLÖSCHER -->
+        <Item type="CPtFxAssetDependencyInfo">
+            <parentName>weap_fireextinguisher_powder</parentName>
+            <childName>w_am_fire_exting_powder</childName>
+        </Item>
+    </ptfxAssetDependencyInfos>
+</CPtFxAssetInfoMgr>
