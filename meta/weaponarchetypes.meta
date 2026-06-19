@@ -31,5 +31,12 @@
             <lodDist value="50" />
         </Item>
 
+        <Item>
+            <modelName>w_am_fire_nozzle</modelName>
+            <txdName>w_am_fire_nozzle</txdName>
+            <ptfxAssetName />
+            <lodDist value="50" />
+        </Item>
+
     </InitDatas>
 </CWeaponModelInfo__InitDataList>
