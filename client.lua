@@ -1,7 +1,7 @@
 -- 1. PARTIKEL LADEN (mit Timeout-Schutz)
 local ptfxAssets = {
     "core",
-    "veh_extinguish"     -- Falls das fehlt, überspringt er es jetzt nach 2 Sekunden
+    "veh_extinguish"     -- Falls das fehlt, ueberspringt er es jetzt nach 2 Sekunden
 }
 
 for _, asset in ipairs(ptfxAssets) do
@@ -15,6 +15,6 @@ for _, asset in ipairs(ptfxAssets) do
     if HasNamedPtfxAssetLoaded(asset) then
         print(string.format("^5[FD Custom Weapons] Partikel geladen: %s^0", asset))
     else
-        print(string.format("^3[FD Custom Weapons] Partikel übersprungen (nicht gefunden): %s^0", asset))
+        print(string.format("^3[FD Custom Weapons] Partikel uebersprungen (nicht gefunden): %s^0", asset))
     end
 end
